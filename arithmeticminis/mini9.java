@@ -4,6 +4,6 @@ class mini9
     {
         byte fahrenheit = 70;
         double celsius = (double)(fahrenheit - 32) * 5/9;
-        System.out.println(fahrenheit + " farenheit = " + celsius + " degrees c");
+        System.out.println(fahrenheit + " vfarenheit = " + celsius + " degrees c");
     }
 }

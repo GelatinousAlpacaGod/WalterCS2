@@ -13,22 +13,22 @@ public class arrayreverse
             return;
         }
         int[] array = new int[size];
-        //input the values
+        //input em (to the left)
         System.out.println("Enter values for the array:");
         for (int i = 0; i < size; i++)
         {
             System.out.print("Enter value at index " + i + ": ");
             array[i] = scanner.nextInt();
         }
-        //reverse em
+        //reverse em(to the right)
         for (int i = 0; i < size / 2; i++)
         {
-            //SWAP
+            //SWAP(criss cross)
             int temp = array[i];
             array[i] = array[size - 1 - i];
             array[size - 1 - i] = temp;
         }
-        //print the reversed array
+        //print dat!!!!!!(take it back ow y'all)
         System.out.println("Reversed array:");
         for (int i = 0; i < size; i++)
         {

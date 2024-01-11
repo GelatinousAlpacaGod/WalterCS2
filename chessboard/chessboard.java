@@ -1,4 +1,4 @@
-public class FullChessboard
+public class chessboard
 {
     public static void main(String[] args)
     {
